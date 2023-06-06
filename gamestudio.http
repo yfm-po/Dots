@@ -1,0 +1,95 @@
+#getTopScores
+GET http://localhost:8080/api/score/dots
+Content-Type: application/json
+
+
+############################################################################################################
+
+
+#addScore
+POST http://localhost:8080/api/score
+Content-Type: application/json
+
+{
+  "player": "testScorePlayer44445544",
+  "game": "dots",
+  "points": 300,
+  "playedAt": null
+}
+
+############################################################################################################
+
+
+#getComments
+GET http://localhost:8080/api/comment/dots
+Content-Type: application/json
+
+
+############################################################################################################
+
+// test with null values
+POST http://localhost:8080/api/comment
+Content-Type: application/json
+
+{
+  "player": "testNullComment",
+  "game": "dots",
+  "comment": null,
+  "commentedAt": null
+}
+
+############################################################################################################
+
+#getComments
+GET http://localhost:8080/api/comment/dots
+Content-Type: application/json
+
+############################################################################################################
+
+#addComment
+POST http://localhost:8080/api/comment
+Content-Type: application/json
+
+{
+  "player": "testComment3",
+  "game": "dots",
+  "comment": null,
+  "commentedAt": "2023-01-01T00:00:00Z"
+}
+
+############################################################################################################
+
+
+
+#getAverageRating
+GET http://localhost:8080/api/rating/average/dots
+Content-Type: application/json
+
+############################################################################################################
+
+
+#getRatings
+GET http://localhost:8080/api/rating/dots
+Content-Type: application/json
+
+
+############################################################################################################
+
+#setRating
+POST http://localhost:8080/api/rating
+Content-Type: application/json
+
+{
+  "player": "testRatingPlayer3",
+  "game": "dots",
+  "rating": null,
+  "ratedAt": "2023-01-01T00:00:00Z"
+}
+
+############################################################################################################
+
+#getRating
+GET http://localhost:8080/api/rating/dots/gamestudioplayer
+Content-Type: application/json
+
+
