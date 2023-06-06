@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Dots</title>
+  <link rel="stylesheet" href="/css/styleResponsive.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<!--/*@thymesVar id="dotsController" type="sk.tuke.kpi.kp.dots.server.controller"*/-->
+<div th:utext="${@dotsController.getHtmlGameBoard()}" style="display: flex; justify-content: center;"/>
+</body>
+</html>
