@@ -1,7 +1,7 @@
 Dots - Components Programming - 2023
 ==========================
 # Video
-[Dots - KP-2023](https://www.youtube.com/watch?v=zQYQL29PYsc)
+[Dots - KP - 2023](https://www.youtube.com/watch?v=zQYQL29PYsc)
 
 # Description
 Dots is mainly a mobile game that challenges you to connect dots of the same color, vertically and horizontally.
