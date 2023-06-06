@@ -1,0 +1,7 @@
+.cardHoverEffect {
+    transition: transform 0.3s;
+}
+
+.cardHoverEffect:hover {
+    transform: scale(1.05);
+}

@@ -1,0 +1,38 @@
+.dotWrapper {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.dotWrapper:hover {
+    transform: scale(1.1);
+}
+
+.dotWrapper:active {
+    transform: scale(0.95);
+}
+
+.dot {
+    width: 50px;
+    height: auto;
+    transition: transform 0.3s ease;
+    animation: fall 0.5s ease;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+.dotWrapper.fall {
+    animation-name: fall;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}

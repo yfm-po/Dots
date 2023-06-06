@@ -1,0 +1,151 @@
+html,
+body,
+#root {
+    height: 105%;
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.App {
+    height: 160%;
+}
+
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.light-text {
+    color: #ffffff;
+}
+
+.rating-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star-radio {
+    display: none;
+}
+
+.star {
+    cursor: pointer;
+    margin: 0 2px;
+    font-size: 24px;
+}
+
+.submit-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.game-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.Dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    margin: 3px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Dot.selected {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
+.Red {
+    background-color: #f44336;
+}
+
+.Green {
+    background-color: #4caf50;
+}
+
+.Blue {
+    background-color: #2196f3;
+}
+
+.Yellow {
+    background-color: #ffeb3b;
+}
+
+.Empty {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.navbar-nav .ml-auto {
+    margin-left: auto;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 60px;
+    background-image: linear-gradient(135deg, #1c2d40, #3b5167);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+}
+
+.footer .text-muted {
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+
+.main-content {
+    padding-top: 80px;
+}
+
+.nav-link-dark {
+    color: #ffffff;
+}
+
+.nav-link-dark:hover {
+    color: #dddddd;
+    text-decoration: none;
+}
+
+.nav-link-dark:focus {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav-dropdown-title-dark {
+    color: #ffffff;
+}
+
+.nav-dropdown-title-dark:hover {
+    color: #dddddd;
+}
+
+
+.fixed-card {
+    width: 300px;
+}
+
+.card-title-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

@@ -1,0 +1,44 @@
+.game-title {
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.game-subtitle {
+    font-size: 2rem;
+    color: #ffffff;
+}
+
+.game-section-title {
+    font-size: 1.75rem;
+    color: #ffffff;
+}
+
+.game-instructions {
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+.game-instructions .list-group-item {
+    background-color: transparent;
+    border: none;
+}
+
+.start-game-btn {
+    background-color: #ffffff;
+    color: #2c3e50;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.start-game-btn:hover {
+    background-color: #4b6587;
+    color: #ffffff;
+}
+
+.game-description-card {
+    background-color: #04e7b3;
+    border-radius: 10px;
+}

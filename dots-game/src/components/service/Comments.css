@@ -1,0 +1,16 @@
+.custom-carousel {
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.carousel-item-custom {
+    height: 400px;
+    align-items: center;
+}
+
+.comment-box {
+    background: linear-gradient(135deg, #2e3f57, #5a7c9d);
+    border-radius: 20px;
+    width: 80%;
+}

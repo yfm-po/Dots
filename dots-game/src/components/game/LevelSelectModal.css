@@ -1,0 +1,49 @@
+.custom-modal .modal-dialog {
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+.custom-modal-content {
+    background-color: #2c3e50;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.custom-modal-header {
+    border-bottom: none;
+    padding: 15px;
+}
+
+.custom-modal-body {
+    padding: 15px;
+    font-size: 18px;
+}
+
+.custom-tooltip {
+    background-color: #2c3e50;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.btn-custom {
+    background-color: #4b6587;
+    border-color: #4b6587;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background-color 0.3s, border-color 0.3s;
+    margin: 5px;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active {
+    background-color: #6a82a9;
+    border-color: #6a82a9;
+}
+
+.modal-title-centered {
+    text-align: center;
+    width: 100%;
+}
