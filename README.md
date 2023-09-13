@@ -1,7 +1,11 @@
 Dots - Components Programming - 2023
 ==========================
 # Video
-[Dots - KP - 2023](https://www.youtube.com/watch?v=zQYQL29PYsc)
+[Dots - KP - 2023](https://www.youtube.com/watch?v=zQYQL29PYsc) - Final assignment
+
+[Dots - JPA + REST](https://www.youtube.com/watch?v=msWIcJyOTHU) - Some Services
+
+[Dots - Console UI + JDBC](https://www.youtube.com/watch?v=80IRkK9DpOM) - Demonstration of the logic of the game and simple java db connection via cli
 
 # Description
 Dots is mainly a mobile game that challenges you to connect dots of the same color, vertically and horizontally.
